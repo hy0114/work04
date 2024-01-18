@@ -1,0 +1,88 @@
+.blind{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  margin: -1px;
+}
+
+
+[data-scroll-text=""]{
+  overflow: hidden;
+  display: block;
+}
+[data-scroll-text=""] span{
+  display: inline-flex;
+}
+
+
+[data-scroll-content=""]{
+  overflow: hidden;
+  display: block;
+}
+[data-scroll-content=""] span{
+  display: block;
+}
+
+
+[data-scroll-content00=""]{
+  overflow: hidden;
+  display: block;
+}
+[data-scroll-content00=""] span{
+  display: inline-flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headline{
+  margin-left: 260px;
+}
+.headline .number{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 1px solid #a4a4a4;
+  width: 98px;
+  height: 98px;
+}
+.headline .number em{
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 100%;
+}
+.headline .title{
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 42px;
+}
+.content{
+  width: 698px;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 50px 0 0px 260px;
+}
